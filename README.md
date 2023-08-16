@@ -91,4 +91,4 @@ This script merges the five output files of ISM.cpp to one tsv-file.
 
 In the macOS-terminal the C++ scripts are executed by...
 
-`g++ $(gsl-config --cflags) *.cpp $(gsl-config --libs) && ./a.out`
+`g++ $(gsl-config --cflags) *.cpp $(gsl-config --libs) && ./evolution.out`
