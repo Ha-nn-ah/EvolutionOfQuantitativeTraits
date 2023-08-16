@@ -4,12 +4,12 @@ The simulation package contains four C++ files and one R file:
 
 ## OneLocus.cpp
 
-This program tracks the number of mutants for one locus. The simulation code has been used for Sect. 3 and 4 and App. S.
+This program tracks the number of mutants for one locus. The simulation code has been used for Sect. 3 and 4.1 and App. S.
 
 - Input: parameters
 	population size N, selection coefficient s, 
-	population-scaled mutation rate \tilde{Theta} (0 for main part), 
-	initial number of mutants in the population (1 for main part, 0 for Appendix C),
+	population-scaled mutation rate \tilde{Theta} (for this paper), 
+	initial number of mutants in the population (1 for this paper),
 	stopping condition n (number of generations), 
 	time step dt (output generated every dt generations)
 
@@ -33,7 +33,7 @@ This program evaluates the number of mutants at each locus according to the Infi
 
 ## ISM_SegSites.cpp
 
-This program evaluates the number of mutants at each locus according to the Infinite Sites Model. It has been used for Figure 6.1.
+This program evaluates the number of mutants at each locus according to the Infinite Sites Model. It has been used for Sect. 5 and App. E and S.
 
 - Input: parameters
 	population size N, selection coefficient s, 
@@ -50,7 +50,7 @@ This program evaluates the number of mutants at each locus according to the Infi
 
 ## ISM.cpp
 
-This program keeps track of different quantities (see output) in the Infinite Sites Model. After summarizing with the help of ISM_summary.R, the results have been used for Sect. 4 and 5 and App. D and E.
+This program keeps track of different quantities (see output) in the Infinite Sites Model. After summarizing with the help of ISM_summary.R, the results have been used for Sect. 4 and App. S.
 
 - Input: parameters
 	population size N, selection coefficient s, 
