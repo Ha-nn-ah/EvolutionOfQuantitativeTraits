@@ -99,12 +99,6 @@ This script merges the five output files of ISM.cpp to one tsv-file.
 	7th column: expected number of segregating sites \
 	8th column: variance of the phenotypic mean \
 	9th column: variance of the phenotypic variance
-		
-### Execution
-
-In the macOS-terminal the C++ scripts are executed by...
-
-`g++ $(gsl-config --cflags) *.cpp $(gsl-config --libs) && ./evolution.out`
 
 ## Sharing/Access information
 
@@ -115,3 +109,6 @@ Please consult the associated publication.
 * *Wolfram Mathematica*: Wolfram Research, Inc., Mathematica, Version 13.2, Champaign, IL (2022).
 
 * C++ source code compilation (`g++`) requires the GNU Scientific Library (GSL).
+
+In the macOS-terminal the C++ scripts are executed by... \
+`g++ $(gsl-config --cflags) *.cpp $(gsl-config --libs) && ./evolution.out`
