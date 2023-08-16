@@ -1,3 +1,7 @@
+
+
+# Mathematica notebook
+
 # Wright-Fisher simulations
 
 The simulation package contains four C++ files and one R file:
