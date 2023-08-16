@@ -1,19 +1,19 @@
 # Polygenic dynamics underlying the response of quantitative traits to directional selection
 
-This github repository provides the Wolfram Mathematica notebook (and a pdf-version of it) and the simulation code (C++) of the publication:
+This github repository provides the *Wolfram Mathematica* notebook (and a pdf-version of it) and the simulation code (*C++*) of the publication:
 
 Götsch, Hannah and Reinhard Bürger, 2023. \
-"Polygenic dynamics underlying the response of quantitative traits to directional selection." \
-Theoretical Population Biology *, * - *. \
-doi: * 
+*"Polygenic dynamics underlying the response of quantitative traits to directional selection."* \
+*Theoretical Population Biology* , - . \
+doi: 
 
 ## Mathematica notebook
 
-The comprehensive Wolfram Mathematica notebook shows additional visualizations of the analytical predictions and efficient numerical evaluations of those. 
+The comprehensive *Wolfram Mathematica* notebook shows additional visualizations of the analytical predictions and efficient numerical evaluations of those. 
 
 ## Wright-Fisher simulations
 
-The simulation package contains four C++ files and one R file:
+The simulation package contains four *C++* files and one *R* file:
 
 ### OneLocus.cpp
 
