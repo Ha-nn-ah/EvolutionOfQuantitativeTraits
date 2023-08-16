@@ -6,6 +6,8 @@ Götsch, Hannah and Reinhard Bürger, 2023. "Polygenic dynamics underlying the r
 Theoretical Population Biology *, *-*.
 doi: * 
 
+For further questions please contact me.
+
 ## Mathematica notebook
 
 The comprehensive Wolfram Mathematica notebook shows additional visualizations of the analytical predictions and efficient numerical evaluations of those. 
