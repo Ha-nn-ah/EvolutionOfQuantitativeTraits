@@ -2,9 +2,9 @@
 
 This github repository provides the Wolfram Mathematica notebook (and a pdf-version of it) and the simulation code (C++) of the paper
 
-Götsch, Hannah and Bürger,Reinhard, 2023. "Polygenic dynamics underlying the response of quantitative traits to directional selection." 
+Götsch, Hannah and Reinhard Bürger, 2023. "Polygenic dynamics underlying the response of quantitative traits to directional selection." 
 Theoretical Population Biology *, *-*.
-doi: *
+doi: * 
 
 ## Mathematica notebook
 
