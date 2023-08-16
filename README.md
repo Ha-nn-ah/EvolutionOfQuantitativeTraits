@@ -1,12 +1,20 @@
+# Polygenic dynamics underlying the response of quantitative traits to directional selection
 
+This github repository provides the Wolfram Mathematica notebook (and a pdf-version of it) and the simulation code (C++) of the paper
 
-# Mathematica notebook
+Götsch, Hannah and Bürger,Reinhard, 2023. "Polygenic dynamics underlying the response of quantitative traits to directional selection." 
+Theoretical Population Biology *, *-*.
+doi: *
 
-# Wright-Fisher simulations
+## Mathematica notebook
+
+The comprehensive Wolfram Mathematica notebook shows additional visualizations of the analytical predictions and efficient numerical evaluations of those. 
+
+## Wright-Fisher simulations
 
 The simulation package contains four C++ files and one R file:
 
-## OneLocus.cpp
+### OneLocus.cpp
 
 This program tracks the number of mutants for one locus. The simulation code has been used for Sect. 3 and 4.1 and App. S.
 
@@ -21,7 +29,7 @@ This program tracks the number of mutants for one locus. The simulation code has
 	i-th column = number of mutants after i*dt generations; for i = 1,2,...,n/dt
 	rows = runs
 
-## ISM_Loci.cpp
+### ISM_Loci.cpp
 
 This program evaluates the number of mutants at each locus according to the Infinite Sites Model. It has been used for Figure 3.5.
 
@@ -35,7 +43,7 @@ This program evaluates the number of mutants at each locus according to the Infi
 	i-th column = number of mutants at locus i in generation \tau
 	rows = runs
 
-## ISM_SegSites.cpp
+### ISM_SegSites.cpp
 
 This program evaluates the number of mutants at each locus according to the Infinite Sites Model. It has been used for Sect. 5 and App. E and S.
 
@@ -52,7 +60,7 @@ This program evaluates the number of mutants at each locus according to the Infi
 	i-th column = number of mutants arising from the (i-3)-th successful mutation event in generation \tau; i = 4,5,...
 	rows = runs
 
-## ISM.cpp
+### ISM.cpp
 
 This program keeps track of different quantities (see output) in the Infinite Sites Model. After summarizing with the help of ISM_summary.R, the results have been used for Sect. 4 and App. S.
 
@@ -73,7 +81,7 @@ This program keeps track of different quantities (see output) in the Infinite Si
 	fixed.tsv	xxx = number of mutated loci, where derived state get fixed
 	extinct.tsv	xxx = number of mutated loci, where ancestral state get fixed again
 
-## ISM_summary.R
+### ISM_summary.R
 
 This script merges the five output files of ISM.cpp to one tsv-file.
 
@@ -91,7 +99,7 @@ This script merges the five output files of ISM.cpp to one tsv-file.
 	8th column: variance of the phenotypic mean
 	9th column: variance of the phenotypic variance
 		
-## Execution
+### Execution
 
 In the macOS-terminal the C++ scripts are executed by...
 
